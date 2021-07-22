@@ -1,21 +1,21 @@
 # Naming Things Is Hard - Virtualization Edition
 
-node - physical device
-machine - running container or vm.
-manager -
-engine - runs machines
-orchestrator - manages ha
-workload - multiple machines run as a whole e.g. kubernetes pod
+- node - physical device
+- machine - running container or vm.
+- manager -
+- engine - runs machines
+- orchestrator - manages ha
+- workload - multiple machines run as a whole e.g. kubernetes pod
 
 
-node
-	container orchestrator
-	container engine
-		container
-	vm engine
-		vm
-			container engine
-				...
+- node
+	- container orchestrator
+	- container engine
+		- container
+	- vm engine
+		- vm
+			- container engine
+				- ...
 
 orchestrators/engines can run in either
 
