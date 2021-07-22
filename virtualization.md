@@ -1,25 +1,8 @@
-initial image -> packer -> ansible -> new image
-
-
-Cloud image + cloud-init image
-ISO + Debian Preseed
-ISO + Red Hat Kickstart
-
-Ansible - playbook
-
-cloud-init
-	configure
-		default user
-		networking
-
-	install
-		ansible pre-requisites?
-
-
-
+# Naming Things Is Hard - Virtualization Edition
 
 node - physical device
-machine - running container or vm
+machine - running container or vm.
+manager -
 engine - runs machines
 orchestrator - manages ha
 workload - multiple machines run as a whole e.g. kubernetes pod
@@ -34,10 +17,10 @@ node
 			container engine
 				...
 
-orchestrators/engines can run in either 
+orchestrators/engines can run in either
 
 - standalone
-- high availability (HA) - migrates machine between nodes
+- high availability (HA) - can migrate machines between nodes
 
 modes.
 
@@ -138,4 +121,3 @@ allows disk to only write used space not the full disk size
 
 
 ## workload
-
